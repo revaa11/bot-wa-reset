@@ -1,0 +1,10 @@
+{
+  "name": "whatsapp-pin-assistant-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram Asisten Informasi Reset PIN WhatsApp",
+  "main": "api/webhook.py",
+  "scripts": {
+    "start": "echo 'Deploy on Vercel Only'"
+  },
+  "dependencies": {}
+}
