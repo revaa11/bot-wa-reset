@@ -1,0 +1,20 @@
+{
+  "builds": [
+    {
+      "src": "api/webhook.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.10",
+        "requirements": [
+          "python-telegram-bot==20.8"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/webhook.py"
+    }
+  ]
+}
